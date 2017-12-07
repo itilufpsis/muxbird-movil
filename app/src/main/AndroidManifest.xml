@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cristianramirez.ufpsreport">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ufps"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".IniciarSesion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuEstudiante"
+            android:label="@string/title_activity_menu_estudiante"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".LectorQR"></activity>
+        <activity
+            android:name=".CargarRegistrarFallo"
+            android:label="@string/title_activity_cargar_registrar_fallo"
+            android:parentActivityName=".MenuEstudiante"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+                        <meta-data
+                            android:name="android.support.PARENT_ACTIVITY"
+                            android:value="com.example.cristianramirez.ufpsreport.MenuEstudiante" />
+            -->
+        </activity>
+        <activity
+            android:name=".RegistrarFallo"
+            android:label="@string/title_activity_registrar_fallo"
+            android:parentActivityName=".CargarRegistrarFallo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+                        <meta-data
+                            android:name="android.support.PARENT_ACTIVITY"
+                            android:value="com.example.cristianramirez.ufpsreport.CargarRegistrarFallo" />
+            -->
+        </activity>
+        <activity
+            android:name=".MenuProfesor"
+            android:label="@string/title_activity_menu_profesor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CargarValidarFallo"
+            android:label="@string/title_activity_cargar_validar_fallo"
+            android:parentActivityName=".MenuProfesor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cristianramirez.ufpsreport.MenuProfesor" />
+            -->
+        </activity>
+        <activity
+            android:name=".ValidarFallo"
+            android:label="@string/title_activity_validar_fallo"
+            android:parentActivityName=".CargarValidarFallo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+                        <meta-data
+                            android:name="android.support.PARENT_ACTIVITY"
+                            android:value="com.example.cristianramirez.ufpsreport.CargarValidarFallo" />
+            -->
+        </activity>
+        <activity
+            android:name=".RegistrarUsuario"
+            android:label="@string/title_activity_registrar_usuario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

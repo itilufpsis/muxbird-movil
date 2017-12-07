@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EstiloBoton" parent="Theme.AppCompat.Light">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="EstiloTextoTitulo" parent="Theme.AppCompat.Light">
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@android:color/black</item>
+
+    </style>
+
+    <style name="EstiloTextoCuerpo" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@android:color/black</item>
+
+    </style>
+</resources>

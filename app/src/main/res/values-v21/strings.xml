@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="informacionmenuprofesor">
+        Para poder registrar un incidente con un equipo tecnologico haga click en el boton escanear dispositivo para abrir el escaner QR y asi poder capturar los datos del dispositivo. \n \n Para validar un fallo reportado haga click en el boton validar
+
+    </string>
+    <string name="mensajeestudiante">Para poder registrar un incidente con un equipo tecnologico haga click en el boton escanear dispositivo para abrir el escaner QR y asi poder capturar los datos del dispositivo.</string>
+</resources>

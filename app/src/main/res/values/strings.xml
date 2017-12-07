@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MuxBird</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_estudiante">Menu Estudiante</string>
+    <string name="title_activity_cargar_registrar_fallo">Seleccionar ubicación</string>
+    <string name="title_activity_registrar_fallo">Registrar fallo</string>
+    <string name="title_activity_registrar_usuario">Registrar Usuario</string>
+    <string name="title_activity_menu_profesor">Menu profesor</string>
+    <string name="informacionmenuprofesor">
+        Para poder registrar un incidente con un equipo tecnologico haga click en el boton escanear dispositivo para abrir el escaner QR y asi poder capturar los datos del dispositivo. \n \n Para validar un fallo reportado haga click en el boton validar
+
+    </string>
+    <string name="title_activity_cargar_validar_fallo">Seleccionar sala</string>
+    <string name="title_activity_validar_fallo">Validar fallo</string>
+    <string name="mensajeestudiante">Para poder registrar un incidente con un equipo tecnologico haga click en el boton escanear dispositivo para abrir el escaner QR y asi poder capturar los datos del dispositivo.</string>
+</resources>
